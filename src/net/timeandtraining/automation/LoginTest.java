@@ -16,9 +16,9 @@ public class LoginTest {
 		
 		element.click();
 		
-	 driver.findElement(By.id("email")).sendKeys("test@timeandtraining.net");
+	 driver.findElement(By.id("email")).sendKeys("rashidnusrum@gmail.com");
 		
-	 driver.findElement(By.id("passwd")).sendKeys("test123456");
+	 driver.findElement(By.id("passwd")).sendKeys("123456789");
 	 
 	 driver.findElement(By.id("SubmitLogin")).click();
 	}
